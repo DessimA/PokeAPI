@@ -1,24 +1,91 @@
 * {
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-}
-
-body {
-    background-color: #f6f8fc;
-}
-
-.content {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-color: #1a1831;
+  }
+  
+  .content {
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
+  }
+  
+  .logo {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .pokeball {
+    height: 23px;
+    width: 23px;
+  }
+  
+  .pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pokemon {
     background-color: #fff;
-}
-
-@media screen and (min-width: 992px) {
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .number {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .detail {
+    margin-top: 1rem;
+  }
+  
+  .types {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .type {
+    background-color: #f1f1f1;
+    color: #555;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  @media screen and (min-width: 900px) {
     .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
+      max-width: 900px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
     }
-}
+  }
+  
