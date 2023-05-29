@@ -22,17 +22,8 @@
 </head>
 
 <body>
-    <section class="content">
+    <header>
         <img class="logo" src="./assets/img/logo.png" alt="Logo Pokémon" />
-        <ol id="pokemonsList" class="pokemons">
-            <!--Pokemons aqui-->
-        </ol>
-        <div class="pagination">
-            <button id="loadMore" type="button"><img class="pokeball" src="./assets/img/pokeball.png" alt="" />Mais</button>
-        </div>
-    </section>
-
-    <footer class="footer">
         <div class="social-icons">
             <a href="https://github.com/DessimA" target="_blank" rel="noopener noreferrer">
                 <img src="./assets/img/github.svg" alt="Ícone do GitHub" />
@@ -41,8 +32,18 @@
                 <img src="./assets/img/linkedin.svg" alt="Ícone do LinkedIn" />
             </a>
         </div>
-    </footer>
+    </header>
+    <section class="content">
+        
+        <ol id="pokemonsList" class="pokemons">
+            <!--Pokemons aqui-->
+        </ol>
+        <div class="pagination">
+            <button id="loadMore" type="button"><img class="pokeball" src="./assets/img/pokeball.svg" alt="" />Mais</button>
+        </div>
+    </section>
 
+    
     <script src="./assets/js/pokemon-model.js" type="text/javascript" charset="utf-8"></script>
     <script src="./assets/js/poke-api.js" type="text/javascript" charset="utf-8"></script>
     <script src="./assets/js/main.js" type="text/javascript" charset="utf-8"></script>

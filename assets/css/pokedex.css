@@ -13,71 +13,71 @@
 }
 
 .grass {
-    background-color: #77c850;
+    background-color: #62bb50;
 }
 
 .fire {
-    background-color: #ee7f30;
+    background-color: #ff6a1a;
 }
 
 .water {
-    background-color: #678fee;
+    background-color: #5496d9;
 }
 
 .electric {
-    background-color: #f7cf2e;
+    background-color: #f7d02c;
 }
 
 .ice {
-    background-color: #98d5d7;
+    background-color: #8adbf0;
 }
 
 .ground {
-    background-color: #dfbf69;
+    background-color: #d8b755;
 }
 
 .flying {
-    background-color: #a98ff0;
+    background-color: #a898f0;
 }
 
 .poison {
-    background-color: #a040a0;
+    background-color: #9f449f;
 }
 
 .fighting {
-    background-color: #bf3029;
+    background-color: #d03028;
 }
 
 .psychic {
-    background-color: #f65687;
+    background-color: #ff6699;
 }
 
 .dark {
-    background-color: #725847;
+    background-color: #5a4758;
 }
 
 .rock {
-    background-color: #b8a137;
+    background-color: #bda61e;
 }
 
 .bug {
-    background-color: #a8b720;
+    background-color: #a6b91a;
 }
 
 .ghost {
-    background-color: #6e5896;
+    background-color: #5f497a;
 }
 
 .steel {
-    background-color: #b9b7cf;
+    background-color: #bbb9d3;
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background-color: #6a34c6;
 }
 
 .fairy {
-    background-color: #f9aec7;
+    background-color: #f6a3c5;
 }
 
 .pokemon {
@@ -128,7 +128,7 @@
 
 .pokemon .detail img {
     max-width: 100%;
-    height: 70px;
+    height: 70px;       
 }
 
 .pagination {
@@ -143,13 +143,14 @@
 .pagination button {
     padding: 0.25rem 0.5rem;
     margin: 0.25rem 0;
-    border: 2px solid #a21220;
-    background-color: #a21232;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
     width: 160px;
     border-radius: 2rem;
     cursor: pointer;
 }
 
 .pagination button:hover {
-    background-color: #a21210;
+    background-color: #222;
 }

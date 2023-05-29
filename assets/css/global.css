@@ -4,8 +4,24 @@
 }
 
 body {
-    background: linear-gradient(135deg, #ffcb05, #f26722, #e9346e, #72489d, #4a68b3);
+    background: linear-gradient(135deg, #e9346e, #72489d, #4a68b3, #1a1831);
 
+}
+
+header {
+    background-color: #1A1831;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;    
+}
+
+header .logo {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 110px;
 }
 
 .content {
@@ -13,10 +29,7 @@ body {
     padding: 1rem;
 }
 
-.logo {
-    height: 100px;
-    width: 200px;
-}
+
 
 .pokeball {
     height: 23px;
@@ -75,6 +88,12 @@ img {
     margin-top: 1rem;
 }
 
+#loadMore {
+    background-color: #1a1831;
+    color: white;
+    border: 2px solid white;
+}
+
 
 .pagination {
     display: flex;
@@ -83,9 +102,9 @@ img {
     align-items: center;
     width: 100%;
     padding: 1rem;
-  }
-  
-  .pagination button {
+}
+
+.pagination button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,16 +116,16 @@ img {
     border-radius: 2rem;
     cursor: pointer;
     color: white;
-  }
-  
-  .pagination button img {
+}
+
+.pagination button img {
     margin-top: 0;
     margin-right: 0.5rem;
-  }
-  
-  .pagination button:hover {
+}
+
+.pagination button:hover {
     background-color: #a21210;
-  }
+}
 
 @media screen and (min-width: 900px) {
     .content {
@@ -117,25 +136,21 @@ img {
     }
 }
 
-.footer {
+
+.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    background-color: #1a1831;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .social-icons a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icons a {
     margin: 0 0.5rem;
-  }
-  
-  .social-icons img {
+}
+
+.social-icons img {
     width: 30px;
     height: 30px;
-  }
+}
